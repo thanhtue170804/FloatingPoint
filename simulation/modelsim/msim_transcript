@@ -1,0 +1,488 @@
+# Reading C:/intelFPGA/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# ERROR: No extended dataflow license exists
+# do FP_Unit_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA/18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/altera/13.0sp1/Systemofchip/FP_Unit_ProMax {C:/altera/13.0sp1/Systemofchip/FP_Unit_ProMax/Sign_Unit.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:14:41 on Nov 25,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera/13.0sp1/Systemofchip/FP_Unit_ProMax" C:/altera/13.0sp1/Systemofchip/FP_Unit_ProMax/Sign_Unit.v 
+# -- Compiling module Sign_Unit
+# 
+# Top level modules:
+# 	Sign_Unit
+# End time: 01:14:41 on Nov 25,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera/13.0sp1/Systemofchip/FP_Unit_ProMax {C:/altera/13.0sp1/Systemofchip/FP_Unit_ProMax/Normalizer.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:14:41 on Nov 25,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera/13.0sp1/Systemofchip/FP_Unit_ProMax" C:/altera/13.0sp1/Systemofchip/FP_Unit_ProMax/Normalizer.v 
+# -- Compiling module Normalizer
+# 
+# Top level modules:
+# 	Normalizer
+# End time: 01:14:41 on Nov 25,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera/13.0sp1/Systemofchip/FP_Unit_ProMax {C:/altera/13.0sp1/Systemofchip/FP_Unit_ProMax/Mantissa_Normalisation.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:14:41 on Nov 25,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera/13.0sp1/Systemofchip/FP_Unit_ProMax" C:/altera/13.0sp1/Systemofchip/FP_Unit_ProMax/Mantissa_Normalisation.v 
+# -- Compiling module Mantissa_Normalisation
+# 
+# Top level modules:
+# 	Mantissa_Normalisation
+# End time: 01:14:41 on Nov 25,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera/13.0sp1/Systemofchip/FP_Unit_ProMax {C:/altera/13.0sp1/Systemofchip/FP_Unit_ProMax/Mantissa_Multiplier.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:14:41 on Nov 25,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera/13.0sp1/Systemofchip/FP_Unit_ProMax" C:/altera/13.0sp1/Systemofchip/FP_Unit_ProMax/Mantissa_Multiplier.v 
+# -- Compiling module Mantissa_Multiplier
+# 
+# Top level modules:
+# 	Mantissa_Multiplier
+# End time: 01:14:41 on Nov 25,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera/13.0sp1/Systemofchip/FP_Unit_ProMax {C:/altera/13.0sp1/Systemofchip/FP_Unit_ProMax/FP_Unit.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:14:41 on Nov 25,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera/13.0sp1/Systemofchip/FP_Unit_ProMax" C:/altera/13.0sp1/Systemofchip/FP_Unit_ProMax/FP_Unit.v 
+# -- Compiling module FP_Unit
+# 
+# Top level modules:
+# 	FP_Unit
+# End time: 01:14:41 on Nov 25,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera/13.0sp1/Systemofchip/FP_Unit_ProMax {C:/altera/13.0sp1/Systemofchip/FP_Unit_ProMax/FP_Mul.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:14:41 on Nov 25,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera/13.0sp1/Systemofchip/FP_Unit_ProMax" C:/altera/13.0sp1/Systemofchip/FP_Unit_ProMax/FP_Mul.v 
+# -- Compiling module FP_Mul
+# 
+# Top level modules:
+# 	FP_Mul
+# End time: 01:14:42 on Nov 25,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera/13.0sp1/Systemofchip/FP_Unit_ProMax {C:/altera/13.0sp1/Systemofchip/FP_Unit_ProMax/FP_Div.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:14:42 on Nov 25,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera/13.0sp1/Systemofchip/FP_Unit_ProMax" C:/altera/13.0sp1/Systemofchip/FP_Unit_ProMax/FP_Div.v 
+# -- Compiling module FP_Div
+# 
+# Top level modules:
+# 	FP_Div
+# End time: 01:14:42 on Nov 25,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera/13.0sp1/Systemofchip/FP_Unit_ProMax {C:/altera/13.0sp1/Systemofchip/FP_Unit_ProMax/Floating_Seperation.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:14:42 on Nov 25,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera/13.0sp1/Systemofchip/FP_Unit_ProMax" C:/altera/13.0sp1/Systemofchip/FP_Unit_ProMax/Floating_Seperation.v 
+# -- Compiling module Floating_Seperation
+# 
+# Top level modules:
+# 	Floating_Seperation
+# End time: 01:14:42 on Nov 25,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera/13.0sp1/Systemofchip/FP_Unit_ProMax {C:/altera/13.0sp1/Systemofchip/FP_Unit_ProMax/Adder_Exponent_Bias.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:14:42 on Nov 25,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera/13.0sp1/Systemofchip/FP_Unit_ProMax" C:/altera/13.0sp1/Systemofchip/FP_Unit_ProMax/Adder_Exponent_Bias.v 
+# -- Compiling module Adder_Exponent_Bias
+# 
+# Top level modules:
+# 	Adder_Exponent_Bias
+# End time: 01:14:42 on Nov 25,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera/13.0sp1/Systemofchip/FP_Unit_ProMax {C:/altera/13.0sp1/Systemofchip/FP_Unit_ProMax/FP_Add.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:14:42 on Nov 25,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera/13.0sp1/Systemofchip/FP_Unit_ProMax" C:/altera/13.0sp1/Systemofchip/FP_Unit_ProMax/FP_Add.v 
+# -- Compiling module FP_Add
+# 
+# Top level modules:
+# 	FP_Add
+# End time: 01:14:42 on Nov 25,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera/13.0sp1/Systemofchip/FP_Unit_ProMax {C:/altera/13.0sp1/Systemofchip/FP_Unit_ProMax/FP_Sub.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:14:42 on Nov 25,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera/13.0sp1/Systemofchip/FP_Unit_ProMax" C:/altera/13.0sp1/Systemofchip/FP_Unit_ProMax/FP_Sub.v 
+# -- Compiling module FP_Sub
+# 
+# Top level modules:
+# 	FP_Sub
+# End time: 01:14:42 on Nov 25,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera/13.0sp1/Systemofchip/FP_Unit_ProMax {C:/altera/13.0sp1/Systemofchip/FP_Unit_ProMax/NR_Iteration.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:14:42 on Nov 25,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera/13.0sp1/Systemofchip/FP_Unit_ProMax" C:/altera/13.0sp1/Systemofchip/FP_Unit_ProMax/NR_Iteration.v 
+# -- Compiling module NR_Iteration
+# 
+# Top level modules:
+# 	NR_Iteration
+# End time: 01:14:42 on Nov 25,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlib system
+# ** Warning: (vlib-34) Library already exists at "system".
+# vmap system system
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap system system 
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/altera/13.0sp1/Systemofchip/FP_Unit_ProMax {C:/altera/13.0sp1/Systemofchip/FP_Unit_ProMax/FP_Unit_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:14:42 on Nov 25,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera/13.0sp1/Systemofchip/FP_Unit_ProMax" C:/altera/13.0sp1/Systemofchip/FP_Unit_ProMax/FP_Unit_tb.v 
+# -- Compiling module FP_Unit_tb
+# 
+# Top level modules:
+# 	FP_Unit_tb
+# End time: 01:14:43 on Nov 25,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneii_ver -L rtl_work -L work -L system -voptargs="+acc"  FP_Unit_tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneii_ver -L rtl_work -L work -L system -voptargs=""+acc"" FP_Unit_tb 
+# Start time: 01:14:44 on Nov 25,2025
+# Loading work.FP_Unit_tb
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# Loading work.FP_Unit
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# Loading work.FP_Add
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# Loading work.FP_Sub
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# Loading work.FP_Mul
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# Loading work.Floating_Seperation
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# Loading work.Adder_Exponent_Bias
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# Loading work.Mantissa_Normalisation
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# Loading work.Mantissa_Multiplier
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# Loading work.Normalizer
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# Loading work.Sign_Unit
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# Loading work.FP_Div
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# Loading work.NR_Iteration
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# 
+# add wave *
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Admin  Hostname: ADMIN-PC  ProcessID: 16588
+#           Attempting to use alternate WLF file "./wlftqki58n".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftqki58n
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# .0 + 1.0 = 40000000 (Gia tri mong muon: 40000000)
+# Test thanh cong!
+# .5 + 1.5 = 40800000 (Gia tri mong muon: 40800000)
+# Test thanh cong!
+# .5 + 0.5 = 3f800000 (Gia tri mong muon: 3f800000)
+# Test thanh cong!
+# .0 + 2.0 = 3f800000 (Gia tri mong muon: 3f800000)
+# Test thanh cong!
+# + (-1.5) = c0800000 (Gia tri mong muon: c0800000)
+# Test thanh cong!
+# 5 + 1.75 = 40a00000 (Gia tri mong muon: 40a00000)
+# Test thanh cong!
+# 5 + 0.25 = bf000000 (Gia tri mong muon: bf000000)
+# Test thanh cong!
+# 0 + 20.0 = 41f00000 (Gia tri mong muon: 41f00000)
+# Test thanh cong!
+#  + 0.375 = 3f000000 (Gia tri mong muon: 3f000000)
+# Test thanh cong!
+# .0 + 3.0 = c0000000 (Gia tri mong muon: c0000000)
+# Test thanh cong!
+# .0 + 0.0 = 00000000 (Gia tri mong muon: 00000000)
+# Test thanh cong!
+# ty + 1.0 = 7f800000 (Gia tri mong muon: 7f800000)
+# Test thanh cong!
+# ty + 1.0 = ff800000 (Gia tri mong muon: ff800000)
+# Test thanh cong!
+# nfinity) = 7fc00000 (Gia tri mong muon: 7fc00000)
+# Test thanh cong!
+# aN + 2.0 = 7fc00000 (Gia tri mong muon: 7fc00000)
+# Test thanh cong!
+# .0 - 1.0 = 40000000 (Gia tri mong muon: 40000000)
+# Test thanh cong!
+# .5 - 1.5 = 3f800000 (Gia tri mong muon: 3f800000)
+# Test thanh cong!
+# .0 - 2.0 = c0400000 (Gia tri mong muon: c0400000)
+# Test thanh cong!
+# .0 - 8.0 = c0400000 (Gia tri mong muon: c0400000)
+# Test thanh cong!
+# - (-1.0) = bf800000 (Gia tri mong muon: bf800000)
+# Test thanh cong!
+# .0 - 4.0 = 40c00000 (Gia tri mong muon: 40c00000)
+# Test thanh cong!
+# 5 - 0.25 = 3f000000 (Gia tri mong muon: 3f000000)
+# Test thanh cong!
+# .5 - 1.5 = c0a00000 (Gia tri mong muon: c0a00000)
+# Test thanh cong!
+# .0 - 5.0 = 41200000 (Gia tri mong muon: 41200000)
+# Test thanh cong!
+#  - 0.125 = 3ec00000 (Gia tri mong muon: 3ec00000)
+# Test thanh cong!
+# .0 - 0.0 = 00000000 (Gia tri mong muon: 00000000)
+# Test thanh cong!
+# ty - 1.0 = 7f800000 (Gia tri mong muon: 7f800000)
+# Test thanh cong!
+# Infinity = ff800000 (Gia tri mong muon: ff800000)
+# Test thanh cong!
+# Infinity = 7fc00000 (Gia tri mong muon: 7fc00000)
+# Test thanh cong!
+# aN - 2.0 = 7fc00000 (Gia tri mong muon: 7fc00000)
+# Test thanh cong!
+# .0 * 3.0 = 40c00000 (Gia tri mong muon: 40c00000)
+# Test thanh cong!
+# .5 * 2.0 = 40400000 (Gia tri mong muon: 40400000)
+# Test thanh cong!
+# .0 * 1.0 = c0000000 (Gia tri mong muon: c0000000)
+# Test thanh cong!
+# 5 * -2.0 = 40400000 (Gia tri mong muon: 40400000)
+# Test thanh cong!
+# 5 * 0.25 = 3e000000 (Gia tri mong muon: 3e000000)
+# Test thanh cong!
+# .0 * 2.5 = 41200000 (Gia tri mong muon: 41200000)
+# Test thanh cong!
+# 75 * 2.0 = 3fc00000 (Gia tri mong muon: 3fc00000)
+# Test thanh cong!
+# .0 * 2.0 = c0c00000 (Gia tri mong muon: c0c00000)
+# Test thanh cong!
+# 0 * 1.25 = 40c80000 (Gia tri mong muon: 40c80000)
+# Test thanh cong!
+# 25 * 0.5 = 3d800000 (Gia tri mong muon: 3d800000)
+# Test thanh cong!
+# .0 * 1.0 = 00000000 (Gia tri mong muon: 00000000)
+# Test thanh cong!
+# ty * 2.0 = 7f800000 (Gia tri mong muon: 7f800000)
+# Test thanh cong!
+# * (-2.0) = ff800000 (Gia tri mong muon: ff800000)
+# Test thanh cong!
+# ty * 0.0 = 7fc00000 (Gia tri mong muon: 7fc00000)
+# Test thanh cong!
+# aN * 3.0 = 7fc00000 (Gia tri mong muon: 7fc00000)
+# Test thanh cong!
+# .0 / 2.0 = 40400000 (Gia tri mong muon: 40400000)
+# Test thanh cong!
+# .0 / 2.0 = 40000000 (Gia tri mong muon: 40000000)
+# Test thanh cong!
+# .0 / 3.0 = c0000002 (Gia tri mong muon: c0000002)
+# Test thanh cong!
+# 0 / -2.0 = 40800000 (Gia tri mong muon: 40800000)
+# Test thanh cong!
+# .0 / 4.0 = 3e800000 (Gia tri mong muon: 3e800000)
+# Test thanh cong!
+# .0 / 2.5 = 40800000 (Gia tri mong muon: 40800000)
+# Test thanh cong!
+# .0 / 4.0 = c0400000 (Gia tri mong muon: c0400000)
+# Test thanh cong!
+# .0 / 3.0 = 40a00002 (Gia tri mong muon: 40a00002)
+# Test thanh cong!
+# .0 / 0.0 = 7f800000 (Gia tri mong muon: 7f800000)
+# Test thanh cong!
+# .0 / 1.0 = 00000000 (Gia tri mong muon: 00000000)
+# Test thanh cong!
+# .0 / 0.0 = 7fc00000 (Gia tri mong muon: 7fc00000)
+# Test thanh cong!
+# ty / 2.0 = 7f800000 (Gia tri mong muon: 7f800000)
+# Test thanh cong!
+# Infinity = 00000000 (Gia tri mong muon: 00000000)
+# Test thanh cong!
+# Infinity = 7fc00000 (Gia tri mong muon: 7fc00000)
+# Test thanh cong!
+# aN / 1.0 = 7fc00000 (Gia tri mong muon: 7fc00000)
+# Test thanh cong!
+# 
+# Ket qua tong hop: 60 test duoc thuc hien, 60 thanh cong, 0 that bai
+# Tat ca cac test deu thanh cong!
+# ** Note: $finish    : C:/altera/13.0sp1/Systemofchip/FP_Unit_ProMax/FP_Unit_tb.v(140)
+#    Time: 1845 ns  Iteration: 0  Instance: /FP_Unit_tb
+# 1
+# Break in Module FP_Unit_tb at C:/altera/13.0sp1/Systemofchip/FP_Unit_ProMax/FP_Unit_tb.v line 140
+# End time: 01:16:13 on Nov 25,2025, Elapsed time: 0:01:29
+# Errors: 90, Warnings: 2

@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="FP_Unit">
+		<CBX_INST_ENTRY INSTANCE_NAME="|FP_Unit|FP_Div:FP_Div_Inst0|NR_Iteration:iter1|FP_Mul:final_mult|Mantissa_Multiplier:SD_Matissa_Mul_Mtiplier_Unit|lpm_mult:Mult0" CBX_FILE_NAME="mult_p8t.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|FP_Unit|FP_Div:FP_Div_Inst0|NR_Iteration:iter1|FP_Mul:final_mult|Mantissa_Multiplier:SD_Matissa_Mul_Mtiplier_Unit|lpm_mult:Mult0|mult_p8t:auto_generated|alt_mac_out:mac_out8" CBX_FILE_NAME="mac_out_4n82.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|FP_Unit|FP_Div:FP_Div_Inst0|NR_Iteration:iter2|FP_Mul:final_mult|Mantissa_Multiplier:SD_Matissa_Mul_Mtiplier_Unit|lpm_mult:Mult0" CBX_FILE_NAME="mult_p8t.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|FP_Unit|FP_Div:FP_Div_Inst0|NR_Iteration:iter2|FP_Mul:final_mult|Mantissa_Multiplier:SD_Matissa_Mul_Mtiplier_Unit|lpm_mult:Mult0|mult_p8t:auto_generated|alt_mac_out:mac_out8" CBX_FILE_NAME="mac_out_4n82.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|FP_Unit|FP_Mul:FP_Mul_Inst0|Mantissa_Multiplier:SD_Matissa_Mul_Mtiplier_Unit|lpm_mult:Mult0" CBX_FILE_NAME="mult_p8t.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|FP_Unit|FP_Mul:FP_Mul_Inst0|Mantissa_Multiplier:SD_Matissa_Mul_Mtiplier_Unit|lpm_mult:Mult0|mult_p8t:auto_generated|alt_mac_out:mac_out8" CBX_FILE_NAME="mac_out_4n82.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|FP_Unit|FP_Div:FP_Div_Inst0|FP_Mul:final_mult|Mantissa_Multiplier:SD_Matissa_Mul_Mtiplier_Unit|lpm_mult:Mult0|mult_p8t:auto_generated|alt_mac_mult:mac_mult7" CBX_FILE_NAME="mac_mult_bng1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|FP_Unit|FP_Div:FP_Div_Inst0|NR_Iteration:iter3|FP_Mul:final_mult|Mantissa_Multiplier:SD_Matissa_Mul_Mtiplier_Unit|lpm_mult:Mult0" CBX_FILE_NAME="mult_p8t.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|FP_Unit|FP_Div:FP_Div_Inst0|NR_Iteration:iter3|FP_Mul:final_mult|Mantissa_Multiplier:SD_Matissa_Mul_Mtiplier_Unit|lpm_mult:Mult0|mult_p8t:auto_generated|alt_mac_out:mac_out8" CBX_FILE_NAME="mac_out_4n82.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|FP_Unit|FP_Div:FP_Div_Inst0|FP_Mul:final_mult|Mantissa_Multiplier:SD_Matissa_Mul_Mtiplier_Unit|lpm_mult:Mult0" CBX_FILE_NAME="mult_p8t.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|FP_Unit|FP_Div:FP_Div_Inst0|FP_Mul:final_mult|Mantissa_Multiplier:SD_Matissa_Mul_Mtiplier_Unit|lpm_mult:Mult0|mult_p8t:auto_generated|alt_mac_out:mac_out8" CBX_FILE_NAME="mac_out_4n82.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|FP_Unit|FP_Div:FP_Div_Inst0|FP_Mul:x0_mult|Mantissa_Multiplier:SD_Matissa_Mul_Mtiplier_Unit|lpm_mult:Mult0|mult_dct:auto_generated|alt_mac_mult:mac_mult7" CBX_FILE_NAME="mac_mult_bng1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|FP_Unit|FP_Div:FP_Div_Inst0|NR_Iteration:iter1|FP_Mul:final_mult|Mantissa_Multiplier:SD_Matissa_Mul_Mtiplier_Unit|lpm_mult:Mult0|mult_p8t:auto_generated|alt_mac_mult:mac_mult7" CBX_FILE_NAME="mac_mult_bng1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|FP_Unit|FP_Div:FP_Div_Inst0|NR_Iteration:iter4|FP_Mul:final_mult|Mantissa_Multiplier:SD_Matissa_Mul_Mtiplier_Unit|lpm_mult:Mult0" CBX_FILE_NAME="mult_p8t.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|FP_Unit|FP_Div:FP_Div_Inst0|NR_Iteration:iter4|FP_Mul:final_mult|Mantissa_Multiplier:SD_Matissa_Mul_Mtiplier_Unit|lpm_mult:Mult0|mult_p8t:auto_generated|alt_mac_out:mac_out8" CBX_FILE_NAME="mac_out_4n82.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|FP_Unit|FP_Div:FP_Div_Inst0|NR_Iteration:iter4|FP_Mul:mult_inst|Mantissa_Multiplier:SD_Matissa_Mul_Mtiplier_Unit|lpm_mult:Mult0" CBX_FILE_NAME="mult_p8t.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|FP_Unit|FP_Div:FP_Div_Inst0|FP_Mul:x0_mult|Mantissa_Multiplier:SD_Matissa_Mul_Mtiplier_Unit|lpm_mult:Mult0|mult_dct:auto_generated|alt_mac_out:mac_out8" CBX_FILE_NAME="mac_out_4n82.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|FP_Unit|FP_Div:FP_Div_Inst0|NR_Iteration:iter1|FP_Mul:mult_inst|Mantissa_Multiplier:SD_Matissa_Mul_Mtiplier_Unit|lpm_mult:Mult0" CBX_FILE_NAME="mult_p8t.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|FP_Unit|FP_Div:FP_Div_Inst0|NR_Iteration:iter2|FP_Mul:final_mult|Mantissa_Multiplier:SD_Matissa_Mul_Mtiplier_Unit|lpm_mult:Mult0|mult_p8t:auto_generated|alt_mac_mult:mac_mult7" CBX_FILE_NAME="mac_mult_bng1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|FP_Unit|FP_Mul:FP_Mul_Inst0|Mantissa_Multiplier:SD_Matissa_Mul_Mtiplier_Unit|lpm_mult:Mult0|mult_p8t:auto_generated|alt_mac_mult:mac_mult7" CBX_FILE_NAME="mac_mult_bng1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|FP_Unit|FP_Div:FP_Div_Inst0|FP_Mul:x0_mult|Mantissa_Multiplier:SD_Matissa_Mul_Mtiplier_Unit|lpm_mult:Mult0" CBX_FILE_NAME="mult_dct.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|FP_Unit|FP_Div:FP_Div_Inst0|NR_Iteration:iter2|FP_Mul:mult_inst|Mantissa_Multiplier:SD_Matissa_Mul_Mtiplier_Unit|lpm_mult:Mult0" CBX_FILE_NAME="mult_p8t.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|FP_Unit|FP_Div:FP_Div_Inst0|NR_Iteration:iter3|FP_Mul:final_mult|Mantissa_Multiplier:SD_Matissa_Mul_Mtiplier_Unit|lpm_mult:Mult0|mult_p8t:auto_generated|alt_mac_mult:mac_mult7" CBX_FILE_NAME="mac_mult_bng1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|FP_Unit|FP_Div:FP_Div_Inst0|NR_Iteration:iter3|FP_Mul:mult_inst|Mantissa_Multiplier:SD_Matissa_Mul_Mtiplier_Unit|lpm_mult:Mult0" CBX_FILE_NAME="mult_p8t.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|FP_Unit|FP_Div:FP_Div_Inst0|NR_Iteration:iter4|FP_Mul:final_mult|Mantissa_Multiplier:SD_Matissa_Mul_Mtiplier_Unit|lpm_mult:Mult0|mult_p8t:auto_generated|alt_mac_mult:mac_mult7" CBX_FILE_NAME="mac_mult_bng1.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

@@ -1,0 +1,70 @@
+#include <stdio.h>
+#include <system.h>
+#include <alt_types.h>
+#include <io.h>
+
+// Địa chỉ cơ số của FP_Unit_Wrapper (kiểm tra trong Qsys Address Map)
+#define FPU_BASE 0x10000000
+#define FPU_RS1  (FPU_BASE + 0x00) // Thanh ghi in_rs1
+#define FPU_RS2  (FPU_BASE + 0x04) // Thanh ghi in_rs2
+#define FPU_CTRL (FPU_BASE + 0x08) // Thanh ghi điều khiển (in_FPU_Op, in_start)
+#define FPU_RESULT (FPU_BASE + 0x0C) // Thanh ghi kết quả out_data
+#define FPU_STATUS (FPU_BASE + 0x10) // Thanh ghi trạng thái out_stall
+
+// Hàm chuyển float sang uint32_t để ghi vào thanh ghi
+alt_u32 float_to_uint32(float f) {
+    union {
+        float f;
+        alt_u32 u;
+    } converter;
+    converter.f = f;
+    return converter.u;
+}
+
+// Hàm chuyển uint32_t sang float để đọc kết quả
+float uint32_to_float(alt_u32 u) {
+    union {
+        float f;
+        alt_u32 u;
+    } converter;
+    converter.u = u;
+    return converter.f;
+}
+
+// Hàm thực hiện phép toán FPU
+void fpu_operation(float rs1, float rs2, alt_u8 op) {
+    // Ghi toán hạng thứ nhất (in_rs1)
+    IOWR_32DIRECT(FPU_RS1, 0, float_to_uint32(rs1));
+    printf("Wrote in_rs1: %f (0x%08x)\n", rs1, (unsigned int)float_to_uint32(rs1));
+
+    // Ghi toán hạng thứ hai (in_rs2)
+    IOWR_32DIRECT(FPU_RS2, 0, float_to_uint32(rs2));
+    printf("Wrote in_rs2: %f (0x%08x)\n", rs2, (unsigned int)float_to_uint32(rs2));
+
+    // Ghi điều khiển (in_FPU_Op = op, in_start = 1)
+    alt_u32 ctrl = (op & 0x3) | (1 << 2); // op: 2 bit thấp, in_start: bit 2
+    IOWR_32DIRECT(FPU_CTRL, 0, ctrl);
+    printf("Wrote control: op=%d, start=1 (0x%08x)\n", op, (unsigned int)ctrl);
+
+    // Đợi phép toán hoàn thành (out_stall = 0)
+    while (IORD_32DIRECT(FPU_STATUS, 0) & 0x1) {
+        printf("Waiting for FPU (stall = 1)...\n");
+    }
+    printf("FPU completed (stall = 0)\n");
+
+    // Đọc kết quả
+    alt_u32 result = IORD_32DIRECT(FPU_RESULT, 0);
+    float result_float = uint32_to_float(result);
+    printf("Result: %f (0x%08x)\n", result_float, (unsigned int)result);
+}
+
+int main() {
+    printf("Starting FPU Test on Altera DE2\n");
+
+    // Thực hiện phép chia: 6.0 / 2.0 (in_FPU_Op = 3)
+    fpu_operation(6.0f, 2.0f, 3); // Kỳ vọng kết quả: 3.0 (0x40400000)
+
+    printf("FPU Test Completed\n");
+    while (1); // Vòng lặp vô hạn để giữ chương trình chạy
+    return 0;
+}

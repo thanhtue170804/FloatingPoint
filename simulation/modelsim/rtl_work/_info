@@ -1,0 +1,309 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/altera/13.0sp1/Systemofchip/FP_Unit_ProMax/simulation/modelsim
+vAdder_Exponent_Bias
+Z1 !s110 1764008082
+!i10b 1
+!s100 kZ<ZHk^dD=8NH[2gkS]BW0
+I@m2kCn:S:J_dEHY0aKPZU0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1747033158
+8C:/altera/13.0sp1/Systemofchip/FP_Unit_ProMax/Adder_Exponent_Bias.v
+FC:/altera/13.0sp1/Systemofchip/FP_Unit_ProMax/Adder_Exponent_Bias.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1764008082.000000
+!s107 C:/altera/13.0sp1/Systemofchip/FP_Unit_ProMax/Adder_Exponent_Bias.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/altera/13.0sp1/Systemofchip/FP_Unit_ProMax|C:/altera/13.0sp1/Systemofchip/FP_Unit_ProMax/Adder_Exponent_Bias.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work +incdir+C:/altera/13.0sp1/Systemofchip/FP_Unit_ProMax
+Z7 tCvgOpt 0
+n@adder_@exponent_@bias
+vFloating_Seperation
+R1
+!i10b 1
+!s100 `WMZ1:;88HC=mCzR57HDZ0
+IziKDZJW_`mzDCTYAc9GhY3
+R2
+R0
+w1744207624
+8C:/altera/13.0sp1/Systemofchip/FP_Unit_ProMax/Floating_Seperation.v
+FC:/altera/13.0sp1/Systemofchip/FP_Unit_ProMax/Floating_Seperation.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/altera/13.0sp1/Systemofchip/FP_Unit_ProMax/Floating_Seperation.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/altera/13.0sp1/Systemofchip/FP_Unit_ProMax|C:/altera/13.0sp1/Systemofchip/FP_Unit_ProMax/Floating_Seperation.v|
+!i113 1
+R5
+R6
+R7
+n@floating_@seperation
+vFP_Add
+R1
+!i10b 1
+!s100 i5FLYzH>2C4_4hbS8c8223
+IkO_^`aP3iUh6aR^mHiPN20
+R2
+R0
+w1747031278
+8C:/altera/13.0sp1/Systemofchip/FP_Unit_ProMax/FP_Add.v
+FC:/altera/13.0sp1/Systemofchip/FP_Unit_ProMax/FP_Add.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/altera/13.0sp1/Systemofchip/FP_Unit_ProMax/FP_Add.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/altera/13.0sp1/Systemofchip/FP_Unit_ProMax|C:/altera/13.0sp1/Systemofchip/FP_Unit_ProMax/FP_Add.v|
+!i113 1
+R5
+R6
+R7
+n@f@p_@add
+vFP_Div
+R1
+!i10b 1
+!s100 KAh8O5`7VbX;RSn[g7gb^1
+IdC[Eh>i6U07`=SkOjCO[k2
+R2
+R0
+w1747063164
+8C:/altera/13.0sp1/Systemofchip/FP_Unit_ProMax/FP_Div.v
+FC:/altera/13.0sp1/Systemofchip/FP_Unit_ProMax/FP_Div.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/altera/13.0sp1/Systemofchip/FP_Unit_ProMax/FP_Div.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/altera/13.0sp1/Systemofchip/FP_Unit_ProMax|C:/altera/13.0sp1/Systemofchip/FP_Unit_ProMax/FP_Div.v|
+!i113 1
+R5
+R6
+R7
+n@f@p_@div
+vFP_Mul
+R1
+!i10b 1
+!s100 iHgN1iCkSYOYezYYN;Bi;2
+I4k1[a;S:b_JNAH_LMgzKZ1
+R2
+R0
+w1747033008
+8C:/altera/13.0sp1/Systemofchip/FP_Unit_ProMax/FP_Mul.v
+FC:/altera/13.0sp1/Systemofchip/FP_Unit_ProMax/FP_Mul.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z8 !s108 1764008081.000000
+!s107 C:/altera/13.0sp1/Systemofchip/FP_Unit_ProMax/FP_Mul.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/altera/13.0sp1/Systemofchip/FP_Unit_ProMax|C:/altera/13.0sp1/Systemofchip/FP_Unit_ProMax/FP_Mul.v|
+!i113 1
+R5
+R6
+R7
+n@f@p_@mul
+vFP_Sub
+R1
+!i10b 1
+!s100 K<Y[o48hM7b2ec`NHPQML2
+IR`[V@m_>C6fnPE^e=TCzD0
+R2
+R0
+w1747032436
+8C:/altera/13.0sp1/Systemofchip/FP_Unit_ProMax/FP_Sub.v
+FC:/altera/13.0sp1/Systemofchip/FP_Unit_ProMax/FP_Sub.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/altera/13.0sp1/Systemofchip/FP_Unit_ProMax/FP_Sub.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/altera/13.0sp1/Systemofchip/FP_Unit_ProMax|C:/altera/13.0sp1/Systemofchip/FP_Unit_ProMax/FP_Sub.v|
+!i113 1
+R5
+R6
+R7
+n@f@p_@sub
+vFP_Unit
+Z9 !s110 1764008081
+!i10b 1
+!s100 SoW5=:M<R[o^]K3iMOYaa3
+ILhoBF?dD:0DoIi1oFjiO82
+R2
+R0
+w1747030634
+8C:/altera/13.0sp1/Systemofchip/FP_Unit_ProMax/FP_Unit.v
+FC:/altera/13.0sp1/Systemofchip/FP_Unit_ProMax/FP_Unit.v
+L0 1
+R3
+r1
+!s85 0
+31
+R8
+!s107 C:/altera/13.0sp1/Systemofchip/FP_Unit_ProMax/FP_Unit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/altera/13.0sp1/Systemofchip/FP_Unit_ProMax|C:/altera/13.0sp1/Systemofchip/FP_Unit_ProMax/FP_Unit.v|
+!i113 1
+R5
+R6
+R7
+n@f@p_@unit
+vFP_Unit_tb
+!s110 1764008083
+!i10b 1
+!s100 DEQ2nbnJ6T7>7QYCMoO4A2
+IFa]2zC]Mb5Uc@F[`ON8`[2
+R2
+R0
+w1747065060
+8C:/altera/13.0sp1/Systemofchip/FP_Unit_ProMax/FP_Unit_tb.v
+FC:/altera/13.0sp1/Systemofchip/FP_Unit_ProMax/FP_Unit_tb.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/altera/13.0sp1/Systemofchip/FP_Unit_ProMax/FP_Unit_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/altera/13.0sp1/Systemofchip/FP_Unit_ProMax|C:/altera/13.0sp1/Systemofchip/FP_Unit_ProMax/FP_Unit_tb.v|
+!i113 1
+R5
+R6
+R7
+n@f@p_@unit_tb
+vMantissa_Multiplier
+R9
+!i10b 1
+!s100 5CfkZl6i3<1bVF1gLTl::2
+IkkAVT0QW@Y^;TEm[KbzOK3
+R2
+R0
+w1744208626
+8C:/altera/13.0sp1/Systemofchip/FP_Unit_ProMax/Mantissa_Multiplier.v
+FC:/altera/13.0sp1/Systemofchip/FP_Unit_ProMax/Mantissa_Multiplier.v
+L0 1
+R3
+r1
+!s85 0
+31
+R8
+!s107 C:/altera/13.0sp1/Systemofchip/FP_Unit_ProMax/Mantissa_Multiplier.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/altera/13.0sp1/Systemofchip/FP_Unit_ProMax|C:/altera/13.0sp1/Systemofchip/FP_Unit_ProMax/Mantissa_Multiplier.v|
+!i113 1
+R5
+R6
+R7
+n@mantissa_@multiplier
+vMantissa_Normalisation
+R9
+!i10b 1
+!s100 3Qg[TaFfg^ne[I0GWEOLK2
+I9?idRDNk7LjL@0TlOjSgl3
+R2
+R0
+w1744208452
+8C:/altera/13.0sp1/Systemofchip/FP_Unit_ProMax/Mantissa_Normalisation.v
+FC:/altera/13.0sp1/Systemofchip/FP_Unit_ProMax/Mantissa_Normalisation.v
+L0 1
+R3
+r1
+!s85 0
+31
+R8
+!s107 C:/altera/13.0sp1/Systemofchip/FP_Unit_ProMax/Mantissa_Normalisation.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/altera/13.0sp1/Systemofchip/FP_Unit_ProMax|C:/altera/13.0sp1/Systemofchip/FP_Unit_ProMax/Mantissa_Normalisation.v|
+!i113 1
+R5
+R6
+R7
+n@mantissa_@normalisation
+vNormalizer
+R9
+!i10b 1
+!s100 6Ce4PF9NH@lWVz_;^MFAP1
+ICaXNEcW`a6`dC?NdJj^1A0
+R2
+R0
+w1747033656
+8C:/altera/13.0sp1/Systemofchip/FP_Unit_ProMax/Normalizer.v
+FC:/altera/13.0sp1/Systemofchip/FP_Unit_ProMax/Normalizer.v
+L0 1
+R3
+r1
+!s85 0
+31
+R8
+!s107 C:/altera/13.0sp1/Systemofchip/FP_Unit_ProMax/Normalizer.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/altera/13.0sp1/Systemofchip/FP_Unit_ProMax|C:/altera/13.0sp1/Systemofchip/FP_Unit_ProMax/Normalizer.v|
+!i113 1
+R5
+R6
+R7
+n@normalizer
+vNR_Iteration
+R1
+!i10b 1
+!s100 z`Y0ljd;iE2aPnb>NfK=X2
+IAzV0bULYg`QA;>l:N<Si`0
+R2
+R0
+w1747059386
+8C:/altera/13.0sp1/Systemofchip/FP_Unit_ProMax/NR_Iteration.v
+FC:/altera/13.0sp1/Systemofchip/FP_Unit_ProMax/NR_Iteration.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/altera/13.0sp1/Systemofchip/FP_Unit_ProMax/NR_Iteration.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/altera/13.0sp1/Systemofchip/FP_Unit_ProMax|C:/altera/13.0sp1/Systemofchip/FP_Unit_ProMax/NR_Iteration.v|
+!i113 1
+R5
+R6
+R7
+n@n@r_@iteration
+vSign_Unit
+R9
+!i10b 1
+!s100 nh<SZPe]?`4SLYS<2:FBR1
+I5d2fjINZ70MnRcK_DMIZA2
+R2
+R0
+w1744208856
+8C:/altera/13.0sp1/Systemofchip/FP_Unit_ProMax/Sign_Unit.v
+FC:/altera/13.0sp1/Systemofchip/FP_Unit_ProMax/Sign_Unit.v
+L0 1
+R3
+r1
+!s85 0
+31
+R8
+!s107 C:/altera/13.0sp1/Systemofchip/FP_Unit_ProMax/Sign_Unit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/altera/13.0sp1/Systemofchip/FP_Unit_ProMax|C:/altera/13.0sp1/Systemofchip/FP_Unit_ProMax/Sign_Unit.v|
+!i113 1
+R5
+R6
+R7
+n@sign_@unit

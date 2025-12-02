@@ -1,0 +1,38 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -vlog01compat -work work +incdir+C:/altera/13.0sp1/Systemofchip/FP_Unit {C:/altera/13.0sp1/Systemofchip/FP_Unit/Sign_Unit.v}
+vlog -vlog01compat -work work +incdir+C:/altera/13.0sp1/Systemofchip/FP_Unit {C:/altera/13.0sp1/Systemofchip/FP_Unit/shift_reg.v}
+vlog -vlog01compat -work work +incdir+C:/altera/13.0sp1/Systemofchip/FP_Unit {C:/altera/13.0sp1/Systemofchip/FP_Unit/REG.v}
+vlog -vlog01compat -work work +incdir+C:/altera/13.0sp1/Systemofchip/FP_Unit {C:/altera/13.0sp1/Systemofchip/FP_Unit/OneBit_Div.v}
+vlog -vlog01compat -work work +incdir+C:/altera/13.0sp1/Systemofchip/FP_Unit {C:/altera/13.0sp1/Systemofchip/FP_Unit/Normalizer.v}
+vlog -vlog01compat -work work +incdir+C:/altera/13.0sp1/Systemofchip/FP_Unit {C:/altera/13.0sp1/Systemofchip/FP_Unit/Msquare_box.v}
+vlog -vlog01compat -work work +incdir+C:/altera/13.0sp1/Systemofchip/FP_Unit {C:/altera/13.0sp1/Systemofchip/FP_Unit/Mantissa_Normalisation.v}
+vlog -vlog01compat -work work +incdir+C:/altera/13.0sp1/Systemofchip/FP_Unit {C:/altera/13.0sp1/Systemofchip/FP_Unit/Mantissa_Multiplier.v}
+vlog -vlog01compat -work work +incdir+C:/altera/13.0sp1/Systemofchip/FP_Unit {C:/altera/13.0sp1/Systemofchip/FP_Unit/Mant_Div_Ctrl.v}
+vlog -vlog01compat -work work +incdir+C:/altera/13.0sp1/Systemofchip/FP_Unit {C:/altera/13.0sp1/Systemofchip/FP_Unit/Mant_Div.v}
+vlog -vlog01compat -work work +incdir+C:/altera/13.0sp1/Systemofchip/FP_Unit {C:/altera/13.0sp1/Systemofchip/FP_Unit/M_white_ball.v}
+vlog -vlog01compat -work work +incdir+C:/altera/13.0sp1/Systemofchip/FP_Unit {C:/altera/13.0sp1/Systemofchip/FP_Unit/M_kogge_stone.v}
+vlog -vlog01compat -work work +incdir+C:/altera/13.0sp1/Systemofchip/FP_Unit {C:/altera/13.0sp1/Systemofchip/FP_Unit/M_diamond.v}
+vlog -vlog01compat -work work +incdir+C:/altera/13.0sp1/Systemofchip/FP_Unit {C:/altera/13.0sp1/Systemofchip/FP_Unit/M_black_ball.v}
+vlog -vlog01compat -work work +incdir+C:/altera/13.0sp1/Systemofchip/FP_Unit {C:/altera/13.0sp1/Systemofchip/FP_Unit/FP_Unit.v}
+vlog -vlog01compat -work work +incdir+C:/altera/13.0sp1/Systemofchip/FP_Unit {C:/altera/13.0sp1/Systemofchip/FP_Unit/FP_Mul.v}
+vlog -vlog01compat -work work +incdir+C:/altera/13.0sp1/Systemofchip/FP_Unit {C:/altera/13.0sp1/Systemofchip/FP_Unit/FP_Div.v}
+vlog -vlog01compat -work work +incdir+C:/altera/13.0sp1/Systemofchip/FP_Unit {C:/altera/13.0sp1/Systemofchip/FP_Unit/Floating_Seperation.v}
+vlog -vlog01compat -work work +incdir+C:/altera/13.0sp1/Systemofchip/FP_Unit {C:/altera/13.0sp1/Systemofchip/FP_Unit/Div_Norm.v}
+vlog -vlog01compat -work work +incdir+C:/altera/13.0sp1/Systemofchip/FP_Unit {C:/altera/13.0sp1/Systemofchip/FP_Unit/Adder_Exponent_Bias.v}
+vlog -vlog01compat -work work +incdir+C:/altera/13.0sp1/Systemofchip/FP_Unit {C:/altera/13.0sp1/Systemofchip/FP_Unit/FP_Add.v}
+vlog -vlog01compat -work work +incdir+C:/altera/13.0sp1/Systemofchip/FP_Unit {C:/altera/13.0sp1/Systemofchip/FP_Unit/FP_Sub.v}
+
+vlog -vlog01compat -work work +incdir+C:/altera/13.0sp1/Systemofchip/FP_Unit {C:/altera/13.0sp1/Systemofchip/FP_Unit/FP_Unit_tb.v}
+
+vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneii_ver -L rtl_work -L work -voptargs="+acc"  FP_Unit_tb.v
+
+add wave *
+view structure
+view signals
+run -all
