@@ -1,4 +1,6 @@
-<img width="1099" height="451" alt="image" src="https://github.com/user-attachments/assets/9e226d6f-450c-44ea-a3a1-77d6dc52cc16" /><img width="1117" height="415" alt="image" src="https://github.com/user-attachments/assets/3bcec5a7-32a2-467b-b379-66786f76f8e2" /><img width="226" height="141" alt="image" src="https://github.com/user-attachments/assets/c4a93d71-4129-4963-b5b3-13cf0a960ea9" /># IEEE 754 Single-Precision Floating Point Unit (FPU) IP Core
+<img width="1099" height="451" alt="image" src="https://github.com/user-attachments/assets/9e226d6f-450c-44ea-a3a1-77d6dc52cc16" /><img width="1117" height="415" alt="image" src="https://github.com/user-attachments/assets/3bcec5a7-32a2-467b-b379-66786f76f8e2" />
+
+# IEEE 754 Single-Precision Floating Point Unit (FPU) IP Core
 ## 📌 Overview
 This repository contains the RTL implementation of a **32-bit Floating Point Unit (FPU)** compliant with the **IEEE 754 Standard**. The IP Core supports four arithmetic operations: Addition, Subtraction, Multiplication, and Division.
 
